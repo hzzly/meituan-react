@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%; /*10 ÷ 16 × 100% = 62.5%*/
+    font-family: 'Avenir', Helvetica, Arial, sans-serif, '微软雅黑';
+    height: 100%;
+}
+body {
+    background-color: #f0efed;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 308229 */
+    src: url('//at.alicdn.com/t/font_rk1s8b63ejwqm2t9.eot');
+    src: url('//at.alicdn.com/t/font_rk1s8b63ejwqm2t9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_rk1s8b63ejwqm2t9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_rk1s8b63ejwqm2t9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_rk1s8b63ejwqm2t9.svg#iconfont') format('svg');
+}
+
+.icon {
+    font-family: "iconfont" !important;
+    font-size: 1.8rem;
+    font-style: normal;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+li {
+    list-style: none;
+}
+
+#root {
+    height: 100%;
+    overflow: auto;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content-wrap {
+    margin: 4.5rem 0 5rem;
+    overflow: scroll;
+}
+
+@media screen and(min-width: 750px) {
+    html, body, header {
+        width: 460px;
+        margin: 0 auto;
+    }
+
+    body{
+        box-shadow: 0 0 30px gray;
+    }
+    .top-btn {
+        margin-left: 32rem !important;
+    }
+}

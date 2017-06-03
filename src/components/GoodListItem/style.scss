@@ -1,0 +1,48 @@
+.good-item {
+    border-bottom: 1px solid #f1f1f1;
+    a {
+        display: flex;
+        .item-img {
+            flex: 0 0 10rem;
+            height: 8rem;
+            padding: 1rem;
+            img {
+                width: 100%;
+            }
+        }
+        .item-content {
+            position: relative;
+            flex: 1;
+            padding: 1rem 0;
+            .name {
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+            }
+            .desc,.place {
+                color: rgba(128, 125, 125, .8);
+                font-size: 1.3rem;
+                line-height: 1.8rem;
+                font-weight: 300;
+            }
+            .price {
+                color: #e9203d;
+                font-size: 1.6rem;
+                span {
+                    font-size: 2rem;
+                }
+            }
+            .destent,.sell {
+                position: absolute;
+                right: 2rem;
+                font-size: 1.3rem;
+                color: rgba(128, 125, 125, .8);
+            }
+            .destent {
+                top: 1.8rem;
+            }
+            .sell {
+                bottom: 1.8rem;
+            }
+        }
+    }
+}
