@@ -1,16 +1,25 @@
 # meituan-react
 
+## 技术栈
+* react
+* react-router
+* redux
+* fetch
+* scss
+
+![http://omt3u4bph.bkt.clouddn.com/meituan-react.png](http://omt3u4bph.bkt.clouddn.com/meituan-react.png)
+
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+$ npm install
 
 # serve with hot reload at localhost:3000
-npm start
+$ npm start
 
 # build for production with minification
-npm run build
+$ npm run build
 
 ```
 
