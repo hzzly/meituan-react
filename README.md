@@ -7,6 +7,7 @@
 * fetch
 * scss
 
+![http://omt3u4bph.bkt.clouddn.com/meituan-react.png](http://omt3u4bph.bkt.clouddn.com/meituan-react.png)
 
 ## Build Setup
 
